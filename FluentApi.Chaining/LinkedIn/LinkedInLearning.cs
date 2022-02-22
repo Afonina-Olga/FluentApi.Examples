@@ -1,11 +1,10 @@
-﻿using System;
-namespace FluentApi.Chaining.LinkedIn
+﻿namespace FluentApi.Chaining.LinkedIn
 {
-    public class LinkedInLearning
-    {
-        public static ISelect Select()
-        {
-            return new Select();
-        }
-    }
+	public class LinkedInLearning
+	{
+		public static ISelect Select()
+		{
+			return new Select();
+		}
+	}
 }

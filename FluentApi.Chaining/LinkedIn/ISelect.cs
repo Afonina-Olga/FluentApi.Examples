@@ -1,8 +1,7 @@
-﻿using System;
-namespace FluentApi.Chaining.LinkedIn
+﻿namespace FluentApi.Chaining.LinkedIn
 {
-    public interface ISelect
-    {
-        ICourses Courses { get; }
-    }
+	public interface ISelect
+	{
+		ICourses Courses { get; }
+	}
 }

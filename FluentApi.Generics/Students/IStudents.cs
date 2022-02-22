@@ -1,11 +1,9 @@
-﻿using System;
-using FluentApi.Generics.Framework;
-using FluentApi.Generics.Models;
+﻿using FluentApi.Generics.Framework;
 
 namespace FluentApi.Generics.Students
 {
-    public interface IStudents : IApplyable, ISupportsSelect<ISelectStudents>
-    {
+	public interface IStudents : IApplyable, ISupportsSelect<ISelectStudents>
+	{
 
-    }
+	}
 }

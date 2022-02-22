@@ -1,8 +1,7 @@
-﻿using System;
-namespace FluentApi.Generics.Framework
+﻿namespace FluentApi.Generics.Framework
 {
-    public interface IAttachable<T>
-    {
-        T Attach();
-    }
+	public interface IAttachable<T>
+	{
+		T Attach();
+	}
 }

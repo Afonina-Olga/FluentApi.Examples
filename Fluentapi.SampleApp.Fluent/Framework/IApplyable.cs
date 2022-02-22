@@ -1,8 +1,7 @@
-﻿using System;
-namespace FluentApi.SampleApp.Fluent.Framework
+﻿namespace FluentApi.SampleApp.Fluent.Framework
 {
-    public interface IApplyable
-    {
-        void Apply();
-    }
+	public interface IApplyable
+	{
+		void Apply();
+	}
 }

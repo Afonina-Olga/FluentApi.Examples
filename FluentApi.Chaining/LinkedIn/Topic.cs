@@ -1,11 +1,10 @@
-﻿using System;
-namespace FluentApi.Chaining.LinkedIn
+﻿namespace FluentApi.Chaining.LinkedIn
 {
-    public enum Topic
-    {
-        Art,
-        Fluent,
-        Math,
-        Philosophy
-    }
+	public enum Topic
+	{
+		Art,
+		Fluent,
+		Math,
+		Philosophy
+	}
 }

@@ -1,15 +1,14 @@
-﻿using System;
-namespace FluentApi.Chaining.LinkedIn
+﻿namespace FluentApi.Chaining.LinkedIn
 {
-    public class Player : IPlayer
-    {
-        public Player(ICourses courses)
-        {
-        }
+	public class Player : IPlayer
+	{
+		public Player(ICourses courses)
+		{
+		}
 
-        public void Start()
-        {
-            throw new NotImplementedException();
-        }
-    }
+		public void Start()
+		{
+			throw new NotImplementedException();
+		}
+	}
 }

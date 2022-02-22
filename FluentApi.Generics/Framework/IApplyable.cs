@@ -1,8 +1,7 @@
-﻿using System;
-namespace FluentApi.Generics.Framework
+﻿namespace FluentApi.Generics.Framework
 {
-    public interface IApplyable
-    {
-        void Apply();
-    }
+	public interface IApplyable
+	{
+		void Apply();
+	}
 }

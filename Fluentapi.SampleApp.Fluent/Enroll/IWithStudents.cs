@@ -6,8 +6,8 @@ using FluentApi.SampleApp.Models;
 
 namespace FluentApi.SampleApp.Fluent.Enroll
 {
-    public interface IWithStudents : IApplyable
-    {
-        IWithCourse WithStudents(Func<IEnumerable<Student>, IEnumerable<Student>> students);
-    }
+	public interface IWithStudents : IApplyable
+	{
+		IWithCourse WithStudents(Func<IEnumerable<Student>, IEnumerable<Student>> students);
+	}
 }
