@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace FluentApi.Inheritance
+﻿namespace FluentApi.Inheritance
 {
 	class Program
 	{
