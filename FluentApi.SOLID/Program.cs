@@ -7,9 +7,18 @@ namespace FluentApi.SOLID
 	/// </summary>
 	class Program
 	{
+		private static readonly IControlFlowScheduler<IDailyTask> _dailyScheduler;
+
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			_dailyScheduler
+				.Initialize()
+				.Then()
+				.Do<MyTask>()
+				.Then()
+				.Do<MyNewTask>()
+				.Then()
+				.Do<MyTask>();
 		}
 	}
 }
