@@ -1,4 +1,6 @@
-﻿namespace FluentApi.Chaining.LinkedIn
+﻿using System;
+
+namespace FluentApi.Chaining.LinkedIn
 {
 	public class Player : IPlayer
 	{

@@ -1,27 +1,30 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentApi.Chaining", "FluentApi.Chaining\FluentApi.Chaining.csproj", "{2BCE8094-7180-482C-A0E4-F966E2A8355A}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentApi.Chaining", "FluentApi.Chaining\FluentApi.Chaining.csproj", "{2BCE8094-7180-482C-A0E4-F966E2A8355A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentApi.Extensions", "FluentApi.Extensions\FluentApi.Extensions.csproj", "{BC3EB4B2-0500-460F-B1D0-5718ADC8432C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentApi.Extensions", "FluentApi.Extensions\FluentApi.Extensions.csproj", "{BC3EB4B2-0500-460F-B1D0-5718ADC8432C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentApi.Conjuctions", "FluentApi.Conjuctions\FluentApi.Conjuctions.csproj", "{60C7B498-8646-4A33-8FA5-099E19B255FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentApi.Conjuctions", "FluentApi.Conjuctions\FluentApi.Conjuctions.csproj", "{60C7B498-8646-4A33-8FA5-099E19B255FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentApi.ExistingApis.Linq", "FluentApi.Linq\FluentApi.ExistingApis.Linq.csproj", "{DBFE5CAB-B869-447D-8C9C-7A13E5FEC803}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentApi.ExistingApis.Linq", "FluentApi.Linq\FluentApi.ExistingApis.Linq.csproj", "{DBFE5CAB-B869-447D-8C9C-7A13E5FEC803}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentApi.LinkingChains", "FluentApi.LinkingChains\FluentApi.LinkingChains.csproj", "{6B2980A1-4D4C-4448-A637-11A36A956ECA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentApi.LinkingChains", "FluentApi.LinkingChains\FluentApi.LinkingChains.csproj", "{6B2980A1-4D4C-4448-A637-11A36A956ECA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentApi.ExistingApis.AzureManagement", "FluentApi.ExistingApis.AzureManagement\FluentApi.ExistingApis.AzureManagement.csproj", "{11BE9508-82F5-4C93-9412-2397108DE409}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentApi.ExistingApis.AzureManagement", "FluentApi.ExistingApis.AzureManagement\FluentApi.ExistingApis.AzureManagement.csproj", "{11BE9508-82F5-4C93-9412-2397108DE409}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentApi.Generics", "FluentApi.Generics\FluentApi.Generics.csproj", "{C2A5C9AF-4EF4-48EC-BFE7-F0F2BB56C0E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentApi.Generics", "FluentApi.Generics\FluentApi.Generics.csproj", "{C2A5C9AF-4EF4-48EC-BFE7-F0F2BB56C0E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentApi.SampleApp", "FluentApi.SampleApp\FluentApi.SampleApp.csproj", "{4C938CF7-DD10-46C8-9F47-F8C297926BC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentApi.SampleApp", "FluentApi.SampleApp\FluentApi.SampleApp.csproj", "{4C938CF7-DD10-46C8-9F47-F8C297926BC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentApi.SampleApp.Fluent.Lib", "Fluentapi.SampleApp.Fluent\Fluentapi.SampleApp.Fluent.Lib.csproj", "{C4E688B5-5B64-41A4-861E-DA78207DC840}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fluentapi.SampleApp.Fluent.Lib", "Fluentapi.SampleApp.Fluent\Fluentapi.SampleApp.Fluent.Lib.csproj", "{C4E688B5-5B64-41A4-861E-DA78207DC840}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentApi.SampleApp.Common.Lib", "FluentApi.SampleApp.Common.Lib\FluentApi.SampleApp.Common.Lib.csproj", "{BDB0B5A9-4B8C-4579-85D3-C135E5AA2753}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentApi.SampleApp.Common.Lib", "FluentApi.SampleApp.Common.Lib\FluentApi.SampleApp.Common.Lib.csproj", "{BDB0B5A9-4B8C-4579-85D3-C135E5AA2753}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentApi.ExistingApis.FluentAssertions", "FluentApi.ExistingApis.FluentAssertions\FluentApi.ExistingApis.FluentAssertions.csproj", "{3F2E1FE4-1F91-4911-AA1F-64B68F9AEDC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentApi.ExistingApis.FluentAssertions", "FluentApi.ExistingApis.FluentAssertions\FluentApi.ExistingApis.FluentAssertions.csproj", "{3F2E1FE4-1F91-4911-AA1F-64B68F9AEDC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentApi.FluentSqlConnection", "FluentApi.FluentSqlConnection\FluentApi.FluentSqlConnection.csproj", "{B462B2E3-7912-4555-9C8B-1B40DA6D9348}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,5 +76,15 @@ Global
 		{3F2E1FE4-1F91-4911-AA1F-64B68F9AEDC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F2E1FE4-1F91-4911-AA1F-64B68F9AEDC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F2E1FE4-1F91-4911-AA1F-64B68F9AEDC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B462B2E3-7912-4555-9C8B-1B40DA6D9348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B462B2E3-7912-4555-9C8B-1B40DA6D9348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B462B2E3-7912-4555-9C8B-1B40DA6D9348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B462B2E3-7912-4555-9C8B-1B40DA6D9348}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE69B92A-D66B-4173-B17C-DAE499465F11}
 	EndGlobalSection
 EndGlobal
